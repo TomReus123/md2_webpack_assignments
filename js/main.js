@@ -17,6 +17,25 @@
  * van Media Development producten (apps, sites, etc.)
  * Bijvoorbeeld een string variabele met de naam 'teacherName' en als waarde 'Berend'
  */
+ 
+ //opdracht 1
+ var nameSchool = "Mediacollege Amsterdam";
+ var schoolAdress = "Contactweg 36";
+ var nameClass = "Scripting";
+ var firstName = "Tom";
+ var lastName = "Reus";
+ 
+ var lesson = 2;
+ var varchar = 255;
+ var Hour = 1500;
+ var dayOfTheWeek = 1;
+ var Enter = 13;
+ 
+ var man = true;
+ var programmer = true;
+ var women = false;
+ var SCT = true;
+ var notReal = false;
 
 /**
  * Opdracht 2: Arrays
@@ -25,12 +44,24 @@
  *
  * Bijvoorbeeld een Array met de naam 'students' en als waarde ['Berend', "Erwin']
  */
+ 
+ //opdracht 2
+ var students = ["Sjaak", "Willem", "Tom", "Lucas"];
+ var games = ["csgo", "fifa", "rocket league", "GTA V", "left 4 dead 2"];
+ var laptopMerken = ["Dell", "HP", "Terra", "Acer"];
+ console.log(students.length);
+ console.log(games.length);
+ console.log(laptopMerken.length);
 
 /**
  * Opdracht 3: Arrays push
  * Maak een lege array aan
  * push er een string in
  */
+ 
+ var array = [];
+ array.push("stringetje");
+ console.log(array);
 
 /**
  * Opdracht 4: Array splice
@@ -38,6 +69,10 @@
  * Gooi de naam op de 1e plek weg
  * Gooi de naam op de 3e plek weg
  */
+ 
+ var names = ["Tom", "Willem", "Sjaak"];
+ names.splice(0, 1);
+ console.log(names);
 
 /**
  * Opdracht 5: Objects
@@ -45,6 +80,10 @@
  *
  * Bijvoorbeeld een object met de gegevens van je mobiel zoals welk merk, type en hoe oud hij is
  */
+ 
+ var car = {type:"Fiat", model:"500", color:"white"}; 
+ var phone = {type:"Iphone", model:"6", color:"silver"}; 
+ var laptop = {type:"HP", model:"255", color:"black"}; 
 
 /**
  * Opdracht 6: Functions

@@ -87,7 +87,14 @@
  
  var car = {type:"Fiat", model:"500", color:"white"}; 
  var phone = {type:"Iphone", model:"6", color:"silver"}; 
- var laptop = {type:"HP", model:"255", color:"black"}; 
+ var laptop = {type:"HP", model:"255", color:"black"};
+ var mouse = {type:"Microsoft", color:"black"};
+ var bag = {type:"Eastpack", color:"black"};
+ var jacket = {type:"Jack and Jones", color:"Blue"};
+ var shirt = {type:"Jack and Jones", color:"olive green"};
+ var pants = {type:"Jack and Jones", size:"28/32" color:"black"};
+ var shoes = {type:"Nike", size:"43" color:"black"};
+ var gel = {type:"Taft", color:"transparent"};
 
 /**
  * Opdracht 6: Functions
@@ -95,6 +102,8 @@
  * Bijvoorbeeld een functie met de naam 'multiply'. Deze functie verwacht 2
  * parameters value & multiplier console.log( value * multiplier)
  */
+ 
+ 
 
 /**
  * Opdracht 7: Function & objects
